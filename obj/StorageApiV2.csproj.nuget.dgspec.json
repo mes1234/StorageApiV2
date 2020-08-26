@@ -1,0 +1,106 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\witol\\source\\repos\\StorageApiV2\\StorageApiV2.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\witol\\source\\repos\\StorageApiV2\\StorageApiV2.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\witol\\source\\repos\\StorageApiV2\\StorageApiV2.csproj",
+        "projectName": "StorageApiV2",
+        "projectPath": "C:\\Users\\witol\\source\\repos\\StorageApiV2\\StorageApiV2.csproj",
+        "packagesPath": "C:\\Users\\witol\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\witol\\source\\repos\\StorageApiV2\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\witol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.5.1, )"
+            },
+            "Azure.Storage.Common": {
+              "target": "Package",
+              "version": "[12.5.1, )"
+            },
+            "Microsoft.ApplicationInsights": {
+              "target": "Package",
+              "version": "[2.14.0, )"
+            },
+            "Microsoft.ApplicationInsights.AspNetCore": {
+              "target": "Package",
+              "version": "[2.14.0, )"
+            },
+            "Microsoft.ApplicationInsights.TraceListener": {
+              "target": "Package",
+              "version": "[2.14.0, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.Azure.KeyVault": {
+              "target": "Package",
+              "version": "[3.0.5, )"
+            },
+            "Microsoft.Azure.Services.AppAuthentication": {
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
+            "Microsoft.Extensions.Logging.AzureAppServices": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
